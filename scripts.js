@@ -9,6 +9,6 @@ function validateEmail(e) {
     } else {
         error_msg.classList.add('notify__error--hidden');
         email.classList.remove('notify__email--error');
-        form.submit();
+        e.target.submit();
     }
 }
